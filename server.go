@@ -13,7 +13,6 @@ import (
 func main() {
 	// Echo instance
 	e := echo.New()
-
 	// Middleware
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
